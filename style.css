@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #383e4e;
+}
+.setting {
+    width: 70%;
+    margin:20px auto;
+}
+.setting h2{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #fff;
+}
+.setting input[type=number]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    outline: 0;
+}
+.setting input[type=radio]{
+    display: inline-block;
+}
+.setting select{
+    display: block;
+    width: 100%;
+}
+.setting label{
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+#category{
+    padding: 10px;
+    border-radius: 3px;
+}
+.start{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 3px;
+    outline: none;
+}
+.quiz, .final{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.quiz label{
+    margin: 20px 0;
+    display: block;
+    color: white;
+}
+#next{
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.count p{
+    display: inline-block;
+}
+#again{
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
